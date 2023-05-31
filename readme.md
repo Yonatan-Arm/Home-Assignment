@@ -1,4 +1,4 @@
-<h1 align="center" id="title">Home Assignment Msapps</h1>
+<h1 align="center" id="title">Home Assignment MSApps</h1>
 
 <p id="description">
 HomeAssignment is a MERN stack web application that showcases 9 images at a time.
