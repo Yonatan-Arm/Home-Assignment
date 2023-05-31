@@ -35,4 +35,4 @@ Technologies used in the project:
 - Scss
 - Express
 - Redux Toolkit
-- axios
+- Axios
