@@ -1,0 +1,55 @@
+.modal-type {
+    z-index: 100;
+    width: 99vw;
+    background-color: #222;
+    background-color: #0006;
+    display: flex;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10vh;
+
+    .modal-container {
+        width: 60%;
+        background-color: $clr4;
+        color: $clr5 ;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+        border-radius: 12px;
+
+
+        span {
+            cursor: pointer;
+            padding: 10px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            width: 120px;
+        }
+
+        span:hover{
+            background-color: #fff;
+            color: #222;
+
+        }
+
+    }
+
+    button {
+        font-size: 40px;
+        top: 20px;
+        right: 20px;
+        position: absolute;
+        color: #fff;
+        background: none;
+        border: none;
+        cursor: pointer;
+
+    }
+}

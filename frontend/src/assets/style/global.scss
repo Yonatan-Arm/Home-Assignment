@@ -1,0 +1,22 @@
+// Setup
+@import 'setup/variables';
+@import 'setup/mixins';
+
+// Basics
+@import 'basic/base';
+
+// Pages
+@import 'pages/app';
+
+// Components
+@import 'components/modalType';
+@import 'components/itemModal';
+
+
+.App {
+    min-height: 100vh;
+    padding: 20px 40px;
+    // background-color: $clr1;
+    color: #222;
+    font-family:Arial, Helvetica, sans-serif;
+}
